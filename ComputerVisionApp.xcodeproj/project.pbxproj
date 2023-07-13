@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		6302C29C289FBCAC00D61B61 /* ComputerVisionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6302C29B289FBCAC00D61B61 /* ComputerVisionApp.swift */; };
 		6302C2A0289FBCAD00D61B61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6302C29F289FBCAD00D61B61 /* Assets.xcassets */; };
-		6302C2A3289FBCAD00D61B61 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6302C2A2289FBCAD00D61B61 /* Preview Assets.xcassets */; };
 		6302C2AA289FBF5F00D61B61 /* ObjDetectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6302C2A9289FBF5F00D61B61 /* ObjDetectViewController.swift */; };
 		63E9CD6728AACF1D00FD0BAA /* ObjectDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E9CD6628AACF1D00FD0BAA /* ObjectDetector.swift */; };
 		63E9CD6928AACFB000FD0BAA /* YOLOv3TinyInt8LUT.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 63E9CD6828AACFB000FD0BAA /* YOLOv3TinyInt8LUT.mlmodel */; };
@@ -31,7 +30,6 @@
 		6302C298289FBCAC00D61B61 /* ComputerVisionApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ComputerVisionApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6302C29B289FBCAC00D61B61 /* ComputerVisionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComputerVisionApp.swift; sourceTree = "<group>"; };
 		6302C29F289FBCAD00D61B61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		6302C2A2289FBCAD00D61B61 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6302C2A9289FBF5F00D61B61 /* ObjDetectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjDetectViewController.swift; sourceTree = "<group>"; };
 		63E9CD6628AACF1D00FD0BAA /* ObjectDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectDetector.swift; sourceTree = "<group>"; };
 		63E9CD6828AACFB000FD0BAA /* YOLOv3TinyInt8LUT.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = YOLOv3TinyInt8LUT.mlmodel; sourceTree = "<group>"; };
@@ -63,22 +61,6 @@
 		6302C28F289FBCAC00D61B61 = {
 			isa = PBXGroup;
 			children = (
-				6302C29A289FBCAC00D61B61 /* ComputerVisionAppUI */,
-				6302C299289FBCAC00D61B61 /* Products */,
-			);
-			sourceTree = "<group>";
-		};
-		6302C299289FBCAC00D61B61 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				6302C298289FBCAC00D61B61 /* ComputerVisionApp.app */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		6302C29A289FBCAC00D61B61 /* ComputerVisionAppUI */ = {
-			isa = PBXGroup;
-			children = (
 				6302C29B289FBCAC00D61B61 /* ComputerVisionApp.swift */,
 				CA6877A329D88BC700BC0FB5 /* MainView.swift */,
 				CA66FAE629E84E5E006DBABF /* CameraCapture.swift */,
@@ -90,17 +72,16 @@
 				CA9860962A0E84D30073D498 /* Mobilenet_v3Large_no_softmax.mlmodel */,
 				63E9CD6828AACFB000FD0BAA /* YOLOv3TinyInt8LUT.mlmodel */,
 				6302C29F289FBCAD00D61B61 /* Assets.xcassets */,
-				6302C2A1289FBCAD00D61B61 /* Preview Content */,
+				6302C299289FBCAC00D61B61 /* Products */,
 			);
-			path = ComputerVisionAppUI;
 			sourceTree = "<group>";
 		};
-		6302C2A1289FBCAD00D61B61 /* Preview Content */ = {
+		6302C299289FBCAC00D61B61 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6302C2A2289FBCAD00D61B61 /* Preview Assets.xcassets */,
+				6302C298289FBCAC00D61B61 /* ComputerVisionApp.app */,
 			);
-			path = "Preview Content";
+			name = Products;
 			sourceTree = "<group>";
 		};
 		CA66FAD629DDCBE5006DBABF /* Classifier View */ = {
@@ -196,7 +177,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6302C2A3289FBCAD00D61B61 /* Preview Assets.xcassets in Resources */,
 				6302C2A0289FBCAD00D61B61 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
