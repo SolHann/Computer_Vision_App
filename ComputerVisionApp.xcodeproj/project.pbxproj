@@ -64,14 +64,12 @@
 				6302C29B289FBCAC00D61B61 /* ComputerVisionApp.swift */,
 				CA6877A329D88BC700BC0FB5 /* MainView.swift */,
 				CA66FAE629E84E5E006DBABF /* CameraCapture.swift */,
+				CAFD7C5A29AC3AE70088478E /* InfoView.swift */,
 				CA66FAD629DDCBE5006DBABF /* Classifier View */,
 				CAFD7C5F29AC46F70088478E /* LearningView */,
 				CAFD7C5C29AC469E0088478E /* ObjectDetectView */,
-				CAFD7C5A29AC3AE70088478E /* InfoView.swift */,
-				CA9860942A0E84AA0073D498 /* MobileNetV2Int8LUT.mlmodel */,
-				CA9860962A0E84D30073D498 /* Mobilenet_v3Large_no_softmax.mlmodel */,
-				63E9CD6828AACFB000FD0BAA /* YOLOv3TinyInt8LUT.mlmodel */,
 				6302C29F289FBCAD00D61B61 /* Assets.xcassets */,
+				CA3247BD2A60C23300BA73A9 /* Models */,
 				6302C299289FBCAC00D61B61 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -82,6 +80,16 @@
 				6302C298289FBCAC00D61B61 /* ComputerVisionApp.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		CA3247BD2A60C23300BA73A9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				63E9CD6828AACFB000FD0BAA /* YOLOv3TinyInt8LUT.mlmodel */,
+				CA9860962A0E84D30073D498 /* Mobilenet_v3Large_no_softmax.mlmodel */,
+				CA9860942A0E84AA0073D498 /* MobileNetV2Int8LUT.mlmodel */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		CA66FAD629DDCBE5006DBABF /* Classifier View */ = {
